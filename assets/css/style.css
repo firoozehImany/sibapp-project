@@ -1,0 +1,126 @@
+@import "../css/font-face.css";
+body {
+  direction: rtl;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #f5f5f5;
+  font-family: vazirmatn;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+.full-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 68px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.button {
+  background: #158cfa;
+  color: #fff;
+  padding: 6px 32px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.header {
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+.header .head-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+.header .head-bar .right-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .head-bar .right-side .logo {
+  width: 115px;
+  height: 30px;
+  margin-left: 20px;
+}
+.header .head-bar .right-side .logo img {
+  width: 100%;
+}
+.header .head-bar .right-side .main-menu ul {
+  display: flex;
+}
+.header .head-bar .right-side .main-menu ul li {
+  background-color: #ececef;
+  padding: 7px 15px;
+  margin-left: 8px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  font-weight: 400;
+}
+.header .head-bar .right-side .main-menu ul li a {
+  color: #343F4B;
+}
+.header .head-bar .left-side {
+  display: flex;
+  align-items: center;
+}
+.header .head-bar .left-side .install-button {
+  background: #158cfa;
+  color: #fff;
+  padding: 5px 30px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: 0 4px 8px 0 rgba(48, 143, 255, 0.5);
+  margin-right: 18px;
+}
+.header .head-bar .left-side .search-icon img {
+  width: 25px;
+  height: 25px;
+}
+
+.announcement {
+  display: flex;
+  justify-content: center;
+  background: #e8f2f9;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0;
+}
+.announcement a p {
+  display: inline-block;
+  color: #4A4A4A;
+  font-size: 16px;
+  font-weight: 200;
+}
+.announcement a span {
+  color: #4A4A4A;
+  font-size: 16px;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */

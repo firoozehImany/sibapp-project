@@ -1,0 +1,31 @@
+body {
+    background: $light-back-body;
+    font-family: $bace-font-family;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.full-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 68px;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.button {
+    background: $brand-color;
+    color: $light-text;
+    padding: 6px 32px;
+    border-radius: 20px;
+    font-size: $bace-font-size;
+    font-weight: $font-weight-normal;
+}

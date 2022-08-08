@@ -1,0 +1,41 @@
+@import "../sass/variables";
+@import "../sass/reset";
+@import "../sass/typography";
+@import "../sass/global";
+@import "../sass/header";
+@import "../sass/footer";
+
+.announcement {
+    display: flex;
+    justify-content: center;
+    background: $light-back-blue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+
+    a {
+        p {
+            display: inline-block;
+            color: $dark-text-color;
+            font-size: $third-font-size;
+            font-weight: $font-weight-thin;
+        }
+
+        span {
+            color: $dark-text-color;
+            font-size: $third-font-size;
+            font-weight: $font-weight-normal;
+        }
+    }
+}
+
+
+
+
+
+
+
+@import "../sass/responsive";
