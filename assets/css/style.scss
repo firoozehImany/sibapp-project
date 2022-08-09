@@ -5,37 +5,82 @@
 @import "../sass/header";
 @import "../sass/footer";
 
-.announcement {
-    display: flex;
-    justify-content: center;
-    background: $light-back-blue;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    padding: 10px;
-    margin: 20px 0;
+.ads-section {
+    margin: 84px 0 20px;
 
-    a {
-        p {
-            display: inline-block;
-            color: $dark-text-color;
-            font-size: $third-font-size;
-            font-weight: $font-weight-thin;
-        }
+    .announcement {
+        display: flex;
+        justify-content: center;
+        background: $light-back-blue;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        padding: 10px;
 
-        span {
-            color: $dark-text-color;
-            font-size: $third-font-size;
-            font-weight: $font-weight-normal;
+        a {
+            p {
+                display: inline-block;
+                color: $dark-text-color;
+                font-size: $font-size-16;
+                font-weight: $font-weight-thin;
+                margin: 0;
+            }
+            
+            span {
+                color: $primary-color-tint1;
+                font-size: $font-size-16;
+                font-weight: $font-weight-normal;
+            }
         }
     }
 }
 
+.hero-section {
+    margin: 24px 0 30px;
 
+    .slider {
+        position: relative;
 
+        .slider-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
 
+            .slide {
+                max-width: 450px;
+                height: auto;
+                border-bottom: .75px solid $border-color;
+                margin: 0 10px;
 
+                a {
+                    img {
+                        width: 100%;
+                        height: auto;
+                        border-radius: 14px;
+                        -webkit-border-radius: 14px;
+                        -moz-border-radius: 14px;
+                        -ms-border-radius: 14px;
+                    }
 
+                    .content {
+                        padding: 5px 10px 10px;
+
+                        p {
+                            font-size: $font-size-12;
+                            font-weight: $font-weight-thin;
+                            color: $mid-text-color;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.popular-app-section {
+    margin: 50px 0;
+}
 
 @import "../sass/responsive";

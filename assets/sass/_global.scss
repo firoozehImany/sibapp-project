@@ -3,7 +3,9 @@ body {
     font-family: $bace-font-family;
 }
 
-*, *:after, *:before {
+*,
+*:after,
+*:before {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -21,11 +23,85 @@ body {
     margin: 0 auto;
 }
 
+.banner-title {
+
+    h3 {
+        display: inline-block;
+        font-size: $font-size-20;
+        font-weight: $font-weight-normal;
+        color: $dark-text-color;
+        margin: 0;
+    }
+
+    .pipeline {
+        display: inline-block;
+        border-right: 2px solid $dark-text-color;
+        height: 16px;
+        margin: 0 3px;
+        vertical-align: -2px;
+    }
+
+    span {
+        font-size: $font-size-20;
+        font-weight: $font-weight-normal;
+        color: $dark-text-color;
+    }
+}
+
+.slider-arrow {
+    display: flex;
+
+    img.perv {
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+
+    img.next {
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+}
+
+.section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+        display: inline-block;
+        font-size: $font-size-21;
+        font-weight: $font-weight-thin;
+        color: $dark-text-title;
+        margin: 0;
+    }
+
+    span {
+        font-size: $font-size-15;
+        font-weight: $font-weight-thin;
+        color: $primary-color;
+    }
+}
+
+.abb-box {
+    img {
+
+    }
+    .content {
+        
+    }
+}
+
 .button {
-    background: $brand-color;
+    background: $primary-color;
     color: $light-text;
     padding: 6px 32px;
     border-radius: 20px;
-    font-size: $bace-font-size;
+    font-size: $font-size-13;
     font-weight: $font-weight-normal;
 }

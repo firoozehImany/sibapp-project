@@ -1,6 +1,11 @@
 .header {
     background: $light-back;
     border-bottom: 1px solid $border-color;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
 
     .head-bar {
         display: flex;
@@ -32,7 +37,7 @@
                         margin-left: 8px;
                         border-radius: 10px;
                         box-shadow: 0 4px 8px 0 $gray-shadow;
-                        font-size: $bace-font-size;
+                        font-size: $font-size-13;
                         font-weight: $font-weight-normal;
 
                         a {
@@ -48,11 +53,11 @@
             align-items: center;
 
             .install-button {
-                background: $brand-color;
+                background: $primary-color;
                 color: $light-text;
                 padding: 5px 30px;
                 border-radius: 20px;
-                font-size: $secund-font-size;
+                font-size: $font-size-14;
                 font-weight: $font-weight-normal;
                 box-shadow: 0 4px 8px 0 $blue-shadow;
                 margin-right: 18px;
