@@ -35,33 +35,60 @@ body {
 }
 
 .container {
-  max-width: 940px;
+  max-width: 980px;
   margin: 0 auto;
 }
 
-.banner-title h3 {
+.father {
+  position: relative;
+}
+
+.app-icon {
+  width: 80px;
+  height: auto;
+  border: 0.75px solid #e0e0e0;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+}
+
+.button {
+  background: #158cfa;
+  color: #fff;
+  height: 28px;
+  padding: 3px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.content h3 {
   display: inline-block;
   font-size: 20px;
   font-weight: 400;
   color: #4A4A4A;
   margin: 0;
+  padding-left: 3px;
 }
-.banner-title .pipeline {
+.content .pipeline {
   display: inline-block;
   border-right: 2px solid #4A4A4A;
   height: 16px;
-  margin: 0 3px;
-  vertical-align: -2px;
 }
-.banner-title span {
+.content span {
   font-size: 20px;
   font-weight: 400;
   color: #4A4A4A;
+  padding-right: 2px;
+}
+.content P {
+  font-size: 12px;
+  font-weight: 200;
+  color: #9B9B9B;
+  margin: 0;
 }
 
-.slider-arrow {
-  display: flex;
-}
 .slider-arrow img.perv {
   height: 100px;
   position: absolute;
@@ -81,6 +108,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 10px 0;
 }
 .section-title h2 {
   display: inline-block;
@@ -95,13 +123,43 @@ body {
   color: #158cfa;
 }
 
-.button {
-  background: #158cfa;
-  color: #fff;
-  padding: 6px 32px;
-  border-radius: 20px;
-  font-size: 13px;
-  font-weight: 400;
+.app-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 0.75px solid #e0e0e0;
+}
+.app-box .info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.app-box .info .content h3 {
+  font-size: 17px;
+  font-weight: 200;
+}
+.app-box .info .content .pipeline {
+  border-right: 1.2px solid #4A4A4A;
+  height: 12px;
+}
+.app-box .info .content span {
+  border-width: 1.4px;
+  font-size: 17px;
+  font-weight: 200;
+}
+.app-box .info .content p {
+  padding-top: 4px;
+  font-size: 11px;
+}
+
+.colemns {
+  display: flex;
+}
+.colemns .col {
+  width: 33.3%;
+  margin: 0 10px;
 }
 
 .header {
@@ -194,9 +252,6 @@ body {
 .hero-section {
   margin: 24px 0 30px;
 }
-.hero-section .slider {
-  position: relative;
-}
 .hero-section .slider .slider-list {
   display: flex;
   flex-wrap: wrap;
@@ -215,15 +270,10 @@ body {
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
   -ms-border-radius: 14px;
+  box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.1);
 }
 .hero-section .slider .slider-list .slide a .content {
   padding: 5px 10px 10px;
-}
-.hero-section .slider .slider-list .slide a .content p {
-  font-size: 12px;
-  font-weight: 200;
-  color: #9B9B9B;
-  margin: 0;
 }
 
 .popular-app-section {

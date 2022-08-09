@@ -26,7 +26,7 @@
                 font-weight: $font-weight-thin;
                 margin: 0;
             }
-            
+
             span {
                 color: $primary-color-tint1;
                 font-size: $font-size-16;
@@ -40,7 +40,6 @@
     margin: 24px 0 30px;
 
     .slider {
-        position: relative;
 
         .slider-list {
             display: flex;
@@ -61,17 +60,11 @@
                         -webkit-border-radius: 14px;
                         -moz-border-radius: 14px;
                         -ms-border-radius: 14px;
+                        box-shadow: 0 0px 5px 0 $gray-shadow;
                     }
 
                     .content {
                         padding: 5px 10px 10px;
-
-                        p {
-                            font-size: $font-size-12;
-                            font-weight: $font-weight-thin;
-                            color: $mid-text-color;
-                            margin: 0;
-                        }
                     }
                 }
             }
