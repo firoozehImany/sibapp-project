@@ -5,7 +5,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 10;
+    z-index: 50;
 
     .head-bar {
         display: flex;
@@ -33,7 +33,7 @@
 
                     li {
                         background-color: $light-back-menu;
-                        padding: 7px 15px;
+                        padding: 7px 12px;
                         margin-left: 8px;
                         border-radius: 10px;
                         box-shadow: 0 4px 8px 0 $gray-shadow;
@@ -55,7 +55,7 @@
             .install-button {
                 background: $primary-color;
                 color: $light-text;
-                padding: 5px 30px;
+                padding: 5px 28px;
                 border-radius: 20px;
                 font-size: $font-size-14;
                 font-weight: $font-weight-normal;

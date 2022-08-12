@@ -1,0 +1,55 @@
+.footer {
+    background: $light-back;
+
+    h4 {
+        color: $dark-text-color;
+        font-size: $font-size-16;
+        font-weight: $font-weight-normal;
+    }
+
+    h5 {
+        color: $mid-text-footer;
+        font-size: $font-size-15;
+        font-weight: $font-weight-thin;
+        margin: 12px 0;
+    }
+
+    .social {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        padding: 10px 10px 20px;
+    }
+
+    .information {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        padding: 0 10px 30px;
+
+        .style {
+            width: 100px;
+            height: auto;
+            border: 2px solid $light-back-menu;
+            padding: 10px 0;
+            border-radius: 20px;
+            background-color: $light-back-body;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .bottom-bar {
+        background: $primary-color;
+        text-align: center;
+        padding: 20px 0;
+
+        a {
+            color: $light-text;
+            font-weight: $font-weight-thin;
+            font-size: $font-size-14;
+        }
+    }
+}

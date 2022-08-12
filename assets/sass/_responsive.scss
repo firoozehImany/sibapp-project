@@ -1,12 +1,26 @@
 @media screen and (max-width:1024px) {
-    .left-side {
-        .install-button {
-            // display: none;
-        }
+    .full-container {
+        padding: 0 48px;
+    }
+    .container {
+        padding: 0 56px;
     }
 }
 
-@media screen and (max-width:960px) {}
+@media screen and (max-width:960px) {
+    .full-container {
+        padding: 0 24px;
+    }
+    .container {
+        padding: 0 24px;
+    }
+    .left-side {
+        .install-button {
+            display: none;
+        }
+    }
+
+}
 
 @media screen and (max-width:760px) {}
 

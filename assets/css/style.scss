@@ -39,41 +39,87 @@
 .hero-section {
     margin: 24px 0 30px;
 
-    .slider {
+    .slide-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 
-        .slider-list {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+        .slide {
+            width: 50%;
+            height: auto;
+            border-bottom: .75px solid $border-color;
+            padding: 0 10px;
 
-            .slide {
-                max-width: 450px;
+            img {
+                width: 100%;
                 height: auto;
-                border-bottom: .75px solid $border-color;
-                margin: 0 10px;
+                border-radius: 15px;
+                -webkit-border-radius: 15px;
+                -moz-border-radius: 15px;
+                -ms-border-radius: 15px;
+                box-shadow: 0 0px 5px 0 $gray-shadow;
+            }
 
-                a {
-                    img {
-                        width: 100%;
-                        height: auto;
-                        border-radius: 14px;
-                        -webkit-border-radius: 14px;
-                        -moz-border-radius: 14px;
-                        -ms-border-radius: 14px;
-                        box-shadow: 0 0px 5px 0 $gray-shadow;
-                    }
-
-                    .content {
-                        padding: 5px 10px 10px;
-                    }
-                }
+            .content {
+                padding: 5px 10px 10px;
             }
         }
     }
 }
 
-.popular-app-section {
-    margin: 50px 0;
+.banner-section {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 48px;
+
+    .banner-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .banner {
+            width: 40%;
+            height: auto;
+            margin: 0 10px;
+            box-shadow: 0 0px 5px 0 $gray-shadow;
+            z-index: 4;
+
+            img {
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+                -webkit-border-radius: 15px;
+                -moz-border-radius: 15px;
+                -ms-border-radius: 15px;
+            }
+
+            .holder {
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                right: 0;
+                display: flex;
+                justify-content: space-between;
+                background: $light-back;
+                padding: 10px 20px;
+                align-items: flex-end;
+                border-radius: 0 0 15px 15px;
+                border-radius: 0 0 15px 15px;
+                border-radius: 0 0 15px 15px;
+                border-radius: 0 0 15px 15px;
+            }
+        }
+    }
+
+    &:after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 50%;
+        background: $primary-color;
+        bottom: 0;
+        right: 0;
+    }
 }
 
 @import "../sass/responsive";
