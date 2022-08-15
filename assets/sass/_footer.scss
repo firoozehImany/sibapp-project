@@ -31,10 +31,13 @@
         .style {
             width: 100px;
             height: auto;
-            border: 2px solid $light-back-menu;
             padding: 10px 0;
-            border-radius: 20px;
+            border: 2px solid $light-back-menu;
             background-color: $light-back-body;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
 
             img {
                 width: 100%;

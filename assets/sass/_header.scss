@@ -42,10 +42,16 @@
                         background-color: $light-back-menu;
                         padding: 7px 12px;
                         margin-left: 8px;
-                        border-radius: 10px;
-                        box-shadow: 0 4px 8px 0 $gray-shadow;
                         font-size: $font-size-13;
                         font-weight: $font-weight-normal;
+                        border-radius: 10px;
+                        -webkit-order-radius: 10px;
+                        -moz-border-radius: 10px;
+                        -ms-border-radius: 10px;
+                        box-shadow: 0 4px 8px 0 $gray-shadow;
+                        -webkit-box-shadow: 0 4px 8px 0 $gray-shadow;
+                        -moz-box-shadow: 0 4px 8px 0 $gray-shadow;
+                        -ms-box-shadow: 0 4px 8px 0 $gray-shadow;
 
                         a {
                             color: $dark-text-menu;
@@ -63,11 +69,17 @@
                 background: $primary-color;
                 color: $light-text;
                 padding: 5px 28px;
-                border-radius: 20px;
+                margin-right: 18px;
                 font-size: $font-size-14;
                 font-weight: $font-weight-normal;
+                border-radius: 20px;
+                -webkit-order-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
                 box-shadow: 0 4px 8px 0 $blue-shadow;
-                margin-right: 18px;
+                -webkit-box-shadow: 0 4px 8px 0 $gray-shadow;
+                -moz-box-shadow: 0 4px 8px 0 $gray-shadow;
+                -ms-box-shadow: 0 4px 8px 0 $gray-shadow;
             }
 
             .search-icon {
