@@ -442,6 +442,9 @@ body {
   -ms-border-radius: 10px;
   padding: 10px;
 }
+.ads-section .announcement a {
+  text-align: center;
+}
 .ads-section .announcement a p {
   display: inline;
   color: #4A4A4A;
