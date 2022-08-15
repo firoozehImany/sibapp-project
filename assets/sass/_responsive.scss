@@ -2,8 +2,21 @@
     .full-container {
         padding: 0 48px;
     }
+
     .container {
-        padding: 0 56px;
+        max-width: 900px;
+        padding: 0 24px;
+    }
+
+    .colemns {
+
+        .col {
+            width: 50%;
+        }
+
+        .third {
+            display: none;
+        }
     }
 }
 
@@ -11,19 +24,83 @@
     .full-container {
         padding: 0 24px;
     }
+
     .container {
-        padding: 0 24px;
+        padding: 0 48px;
     }
+
     .left-side {
         .install-button {
             display: none;
         }
     }
 
+    .install-box {
+        display: flex;
+    }
+
+    .footer {
+        .information {
+            width: 100%;
+        }
+    }
 }
 
-@media screen and (max-width:760px) {}
+@media screen and (max-width:760px) {
+    .header .head-bar .right-side .main-menu {
+        display: none;
+    }
 
-@media screen and (max-width:540px) {}
+    .header .head-bar .right-side .mobile-menu-icon {
+        display: block;
+    }
 
-@media screen and (max-width:320px) {}
+    .hero-section {
+        .slide-list {
+            display: block;
+
+            .slide {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        .slider-arrow {
+            display: none;
+        }
+    }
+
+    .banner-section {
+        .banner-list {
+            display: block;
+
+            .banner {
+                width: 90%;
+                margin: 20 auto;
+            }
+        }
+
+        .slider-arrow {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:660px) {
+    .colemns {
+
+        .col {
+            width: 100%;
+        }
+
+        .second {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:540px) {
+    .container {
+        padding: 0 24px;
+    }
+}
