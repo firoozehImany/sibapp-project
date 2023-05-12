@@ -1,0 +1,176 @@
+@import "../sass/variables";
+@import "../sass/reset";
+@import "../sass/typography";
+@import "../sass/global";
+@import "../sass/header";
+@import "../sass/footer";
+
+.install-box {
+    display: none;
+    justify-content: space-between;
+    align-items:flex-end;
+    position: fixed;
+    width:90%;
+    background: $light-back;
+    z-index: 40;
+    bottom: 40px;
+    right:5%;
+    padding: 14px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    box-shadow: 0 0px 15px 0 $dark-shadow;
+    -webkit-box-shadow: 0 0px 15px 0 $dark-shadow;
+    -moz-box-shadow: 0 0px 15px 0 $dark-shadow;
+    -ms-box-shadow: 0 0px 15px 0 $dark-shadow;
+
+    .info{
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 65px;
+            height: auto;
+        }
+
+        .content {
+            padding-right: 10px;
+            h2 {
+                font-weight: $font-weight-thin;
+                font-size: $font-size-20;
+                margin: 0 0 4px 0;
+                color: $dark-text-color;
+            }
+        }
+    }
+}
+
+.ads-section {
+    margin: 84px 0 20px;
+
+    .announcement {
+        display: flex;
+        justify-content: center;
+        background: $light-back-blue;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        padding: 10px;
+
+        a {
+            text-align:center ;
+            p {
+                display: inline;
+                color: $dark-text-color;
+                font-size: $font-size-16;
+                font-weight: $font-weight-thin;
+                margin: 0;
+            }
+
+            span {
+                color: $primary-color-tint1;
+                font-size: $font-size-16;
+                font-weight: $font-weight-normal;
+            }
+        }
+    }
+}
+
+.hero-section {
+    margin: 24px 0 30px;
+
+    .slide-list {
+        display: flex;
+        justify-content: center;
+
+        .slide {
+            width: 50%;
+            height: auto;
+            border-bottom: .75px solid $border-color;
+            padding: 0 10px;
+
+            img {
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+                -webkit-border-radius: 15px;
+                -moz-border-radius: 15px;
+                -ms-border-radius: 15px;
+                box-shadow: 0 0px 5px 0 $gray-shadow;
+                -webkit-box-shadow: 0 0px 5px 0 $gray-shadow;
+                -moz-box-shadow: 0 0px 5px 0 $gray-shadow;
+                -ms-box-shadow: 0 0px 5px 0 $gray-shadow;
+            }
+
+            .content {
+                padding: 5px 10px 10px;
+            }
+        }
+    }
+}
+
+.banner-section {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 48px;
+
+    .banner-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .banner {
+            width: 40%;
+            height: auto;
+            margin: 0 10px;
+            z-index: 4;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            box-shadow: 0 0px 5px 0 $gray-shadow;
+            -webkit-box-shadow: 0 0px 5px 0 $gray-shadow;
+            -moz-box-shadow: 0 0px 5px 0 $gray-shadow;
+            -ms-box-shadow: 0 0px 5px 0 $gray-shadow;
+
+            img {
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+                -webkit-border-radius: 15px;
+                -moz-border-radius: 15px;
+                -ms-border-radius: 15px;
+            }
+
+            .holder {
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                right: 0;
+                display: flex;
+                justify-content: space-between;
+                background: $light-back;
+                padding: 10px 20px;
+                align-items: flex-end;
+                border-radius: 0 0 15px 15px;
+                -webkit-border-radius: 0 0 15px 15px;
+                -moz-border-radius: 0 0 15px 15px;
+                -ms-border-radius: 0 0 15px 15px;
+            }
+        }
+    }
+
+    &:after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 50%;
+        background: $primary-color;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+@import "../sass/responsive";

@@ -1,0 +1,106 @@
+@media screen and (max-width:1024px) {
+    .full-container {
+        padding: 0 48px;
+    }
+
+    .container {
+        max-width: 900px;
+        padding: 0 24px;
+    }
+
+    .colemns {
+
+        .col {
+            width: 50%;
+        }
+
+        .third {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:960px) {
+    .full-container {
+        padding: 0 24px;
+    }
+
+    .container {
+        padding: 0 48px;
+    }
+
+    .left-side {
+        .install-button {
+            display: none;
+        }
+    }
+
+    .install-box {
+        display: flex;
+    }
+
+    .footer {
+        .information {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:760px) {
+    .header .head-bar .right-side .main-menu {
+        display: none;
+    }
+
+    .header .head-bar .right-side .mobile-menu-icon {
+        display: block;
+    }
+
+    .hero-section {
+        .slide-list {
+            display: block;
+
+            .slide {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        .slider-arrow {
+            display: none;
+        }
+    }
+
+    .banner-section {
+        .banner-list {
+            display: block;
+
+            .banner {
+                width: 90%;
+                margin: 20 auto;
+            }
+        }
+
+        .slider-arrow {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:660px) {
+    .colemns {
+
+        .col {
+            width: 100%;
+        }
+
+        .second {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:540px) {
+    .container {
+        padding: 0 24px;
+    }
+}

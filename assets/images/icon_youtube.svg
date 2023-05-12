@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="20px" viewBox="0 0 29 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon_youtube</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="-7.81597009e-14 3.22580645e-05 27.9999523 3.22580645e-05 27.9999523 20 -7.81597009e-14 20"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-464.000000, -107.000000)">
+            <g id="Group-7" transform="translate(274.000000, 106.000000)">
+                <g id="icon_youtube" transform="translate(190.800000, 1.000000)">
+                    <g id="Group-3">
+                        <g id="Group-8" transform="translate(0.000048, -0.000032)">
+                            <g id="Group-2" transform="translate(-0.000000, 0.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M27.4148636,3.12306452 C27.0928636,1.89370968 26.1442045,0.925645161 24.93925,0.597096774 C22.7558864,0 14,0 14,0 C14,0 5.24411364,0 3.06059091,0.597096774 C1.85579545,0.925645161 0.906977273,1.89370968 0.584977273,3.12306452 C4.4941828e-13,5.35112903 4.4941828e-13,10 4.4941828e-13,10 C4.4941828e-13,10 4.4941828e-13,14.6487097 0.584977273,16.8770968 C0.906977273,18.1062903 1.85579545,19.0743548 3.06059091,19.4030645 C5.24411364,20 14,20 14,20 C14,20 22.7558864,20 24.93925,19.4030645 C26.1442045,19.0743548 27.0928636,18.1062903 27.4148636,16.8770968 C28,14.6487097 28,10 28,10 C28,10 28,5.35112903 27.4148636,3.12306452" id="Fill-1" fill="#BCBCCB" mask="url(#mask-2)"></path>
+                                <polygon id="Fill-4" fill="#FFFFFF" mask="url(#mask-2)" points="10.9999523 14.0000323 17.9999523 10.0001851 10.9999523 6.00003226"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

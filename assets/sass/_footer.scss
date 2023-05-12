@@ -1,0 +1,59 @@
+.footer {
+    background: $light-back;
+
+    h4 {
+        color: $dark-text-color;
+        font-size: $font-size-16;
+        font-weight: $font-weight-normal;
+    }
+
+    h5 {
+        color: $mid-text-footer;
+        font-size: $font-size-15;
+        font-weight: $font-weight-thin;
+        margin: 12px 0;
+    }
+
+    .social {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        padding: 10px 10px 20px;
+    }
+
+    .information {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 70%;
+        padding: 0 10px 30px;
+
+        .style {
+            width: 100px;
+            height: auto;
+            padding: 10px 0;
+            border: 2px solid $light-back-menu;
+            background-color: $light-back-body;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .bottom-bar {
+        background: $primary-color;
+        text-align: center;
+        padding: 20px 0;
+
+        a {
+            color: $light-text;
+            font-weight: $font-weight-thin;
+            font-size: $font-size-14;
+        }
+    }
+}
